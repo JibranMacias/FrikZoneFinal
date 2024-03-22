@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Ranchers&display=swap');
 
 *{
@@ -63,3 +64,35 @@ footer h3{
 footer p{
     color: white;
 }
+
+.titulom h2{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+}
+
+.fondom{
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+.galeria {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Desplazamiento horizontal, desplazamiento vertical, desenfoque, color */
+    width: 350px;
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.galeria:hover{
+    border: 1px solid orange;
+    transform: perspective();
+}
+
+.pie{
+    text-shadow: 2px 2px 5px orange;
+    padding: 10px;
+}
+
