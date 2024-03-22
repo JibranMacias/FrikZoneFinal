@@ -92,4 +92,30 @@ footer p {
 .pie {
   text-shadow: 2px 2px 5px orange;
   padding: 10px;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+}
+
+.pie {
+  text-align: center;
+  background-color: #a0acad;
+}
+
+.card-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  gap: 50px;
+}
+
+.cardc {
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
