@@ -129,4 +129,17 @@ footer p {
   justify-content: end;
 }
 
+.container h1 {
+  text-align: center;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.container p {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 /*# sourceMappingURL=estilos.css.map */

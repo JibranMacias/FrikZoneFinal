@@ -3,6 +3,9 @@
 
 $color-primario: orange;
 $color-cartas: #a0acad;
+$color-letras: white;
+$tamano-letras: 15px;
+$fuentes-media1: 13px;
 
 *{
     margin: 0;
@@ -134,4 +137,17 @@ footer p{
 .cardpromo{
     display: flex;
     justify-content: end;
+}
+
+.container h1{
+    text-align: center;
+    color: $color-letras;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.container p {
+    text-align: center;
+    color: $color-letras;
+    font-size: $tamano-letras;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
