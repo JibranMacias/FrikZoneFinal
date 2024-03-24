@@ -13,7 +13,7 @@ $fuentes-media1: 13px;
     box-sizing: border-box;
 }
 
-body{
+main{
     background-image: url(/img/paisaje-anime-atardecer-arte-digital_1920x1080_xtrafondos.com.jpg);
     background-size: cover;
 }
@@ -88,7 +88,7 @@ footer p{
 }
 
 .galeria img{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -127,6 +127,11 @@ footer p{
     text-align: center;
  }
 
+ .cardc a{
+    background-color: $color-primario;
+    color: black;
+ }
+
 
 .bannerColecciones h2{
     text-align: center;
@@ -145,9 +150,59 @@ footer p{
     text-shadow: black 0.1em 0.1em 0.2em
 }
 
-.container p {
+.containera p {
     text-align: center;
     color: $color-letras;
     font-size: $tamano-letras;
     text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 50px;
 }
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: $color-letras;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: $color-primario;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #007bff;
+}
+
+

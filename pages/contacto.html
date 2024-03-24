@@ -8,7 +8,75 @@
     <link rel="stylesheet" href="../styles/estilos.css">
     <title>Contacto</title>
 </head>
-<body>
-    
+<body> 
+
+ <main>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FrikZone</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="../pages/musica.html">Musica</a>
+              <a class="nav-link" href="../pages/promociones.html">Promociones</a>
+              <a class="nav-link" href="../pages/colecciones.html">Colecciones</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <form>
+        <h1>Contacto</h1>
+        <div class="input-group">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name" placeholder="Nombre" required>
+        </div>
+        <div class="input-group">
+            <label for="phone">Teléfono:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Teléfono">
+        </div>
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="input-group">
+            <label for="message">Mensaje:</label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje" required></textarea>
+        </div>
+        <div class="input-group">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <h3>Enlaces</h3>
+              <ul>
+                <li><a href="../index.html">Inicio de pagina</a></li>
+                <li><a href="../pages/acercade.html">Acerca de</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h3>Contacto</h3>
+              <p>Correo electrónico: monado.yu@gmail.com</p>
+              <p>Teléfono: 333485949</p>
+            </div>
+            <div class="col-lg-4">
+              <h3>Derechos de autor</h3>
+              <p>© [2024] FrikZone. Todos los derechos reservados.<p>
+            </div>
+          </div>
+        </div>
+      </footer>
+ </main>
+
 </body>
 </html>
